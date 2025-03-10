@@ -1,12 +1,12 @@
 const axios = require('axios');
 
 let Giftedd = async (m, { Gifted, sender }) => {
-  const repoUrl = 'https://api.github.com/repos/mouricedevs/telegram-bot';
+  const repoUrl = 'https://api.github.com/repos/Popkiddevs/POPKID-XTECH';
   const response = await axios.get(repoUrl);
   const repoData = response.data;
   const { name, forks_count, stargazers_count, html_url, created_at, updated_at, owner } = repoData;
 
-  let giftedMess = `Hello *@${sender},*\nThis is *Gifted-Md,* A Telegram Bot Built by *@${global.ownerUsername},* Enhanced with Amazing Features to Make Your Whatsapp Communication and Interaction Experience Amazing\n\n*ʀᴇᴘᴏ ʟɪɴᴋ:* ${html_url}\n\n*❲❒❳ ɴᴀᴍᴇ:* ${name}\n*❲❒❳ sᴛᴀʀs:* ${stargazers_count}\n*❲❒❳ ғᴏʀᴋs:* ${forks_count}\n*❲❒❳ ᴄʀᴇᴀᴛᴇᴅ ᴏɴ:* ${new Date(created_at).toLocaleDateString()}\n*❲❒❳ ʟᴀsᴛ ᴜᴘᴅᴀᴛᴇᴅ:* ${new Date(updated_at).toLocaleDateString()}\n*❲❒❳ ᴏᴡɴᴇʀ:* ${owner.login}`;
+  let giftedMess = `Hello *@${sender},*\nThis is *Popkid-Md,* A Telegram Bot Built by *@${global.ownerUsername},* Enhanced with Amazing Features to Make Your Whatsapp Communication and Interaction Experience Amazing\n\n*ʀᴇᴘᴏ ʟɪɴᴋ:* ${html_url}\n\n*❲❒❳ ɴᴀᴍᴇ:* ${name}\n*❲❒❳ sᴛᴀʀs:* ${stargazers_count}\n*❲❒❳ ғᴏʀᴋs:* ${forks_count}\n*❲❒❳ ᴄʀᴇᴀᴛᴇᴅ ᴏɴ:* ${new Date(created_at).toLocaleDateString()}\n*❲❒❳ ʟᴀsᴛ ᴜᴘᴅᴀᴛᴇᴅ:* ${new Date(updated_at).toLocaleDateString()}\n*❲❒❳ ᴏᴡɴᴇʀ:* ${owner.login}`;
 
   let giftedButtons = [
     [
@@ -14,7 +14,7 @@ let Giftedd = async (m, { Gifted, sender }) => {
     ],
     [
       { text: 'Open Repo', url: `${html_url}` }, 
-      { text: 'WaChannel', url: 'https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l' }
+      { text: 'WaChannel', url: 'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l' }
     ]
   ];
 
