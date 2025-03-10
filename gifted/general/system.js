@@ -71,7 +71,7 @@ let Giftedd = async (m, { Gifted, plugins, prefix, ownerUsername, botVersion, ti
       { text: 'Help', callback_data: JSON.stringify({ feature: 'help' }) },
     ],
     [
-      { text: 'WaChannel', url: 'https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l' },
+      { text: 'WaChannel', url: 'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l' },
     ],
   ];
 
