@@ -11,7 +11,7 @@ let Giftedd = async (m, { Gifted, text }) => {
 "${giftedWiki.desc}"`
 
  let giftedButtons = [[
-          { text: 'WaChannel', url: 'https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l' }
+          { text: 'WaChannel', url: 'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l' }
       ]
   ];
       
