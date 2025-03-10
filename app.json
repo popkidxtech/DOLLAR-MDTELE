@@ -1,9 +1,9 @@
 {
     "name": "telegram-md",
-    "description": "Gifted-Md, A simple Telegram user bot Created by Gifted Tech",
-    "logo": "https://github.com/mouricedevs.png",
+    "description": "Popkid-Md, A simple Telegram user bot Created by Popkid Tech",
+    "logo": "https://files.catbox.moe/w5xf3f.jpg",
     "repository": "https://github.com/mouricedevs/telegram-bot",
-    "keywords": ["whatsappbot", "Gifted Tech", "GIFTED MD", "GIFTED TECH 𝙈𝘿", "GIFTEDMdWhatsaooBot", "GIFTEDMDWaBot","GIFTED","GIFTED TECH Md Whatsapp Bot","multi device"],
+    "keywords": ["whatsappbot", "Gifted Tech", "GIFTED MD", "POPKID TECH 𝙈𝘿", "POPKIDMdWhatsaooBot", "POPKIDMDWaBot","POPKID","POPKID TECH Md Whatsapp Bot","multi device"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
     "env": {      
@@ -14,7 +14,7 @@
       },
       "MESSAGE": {
         "description": "bot connection conformation message",
-        "value": "✅ᴄᴏɴɴᴇᴄᴛᴇᴅ✅ [ 𝐘𝐎𝐔'𝐕𝐄 𝐂𝐇𝐎𝐒𝐄𝐍 𝐆𝐈𝐅𝐓𝐄𝐃 𝐌𝐃 ]",
+        "value": "✅ᴄᴏɴɴᴇᴄᴛᴇᴅ✅ [ 𝐘𝐎𝐔'𝐕𝐄 𝐂𝐇𝐎𝐒𝐄𝐍 𝐏𝐎𝐏𝐊𝐈𝐃 𝐌𝐃 ]",
         "required": false 
       }
     }   
