@@ -1,4 +1,4 @@
-global.prefix = '/'; // Set Your Preferred Prefix
+global.prefix = '.'; // Set Your Preferred Prefix
 global.botName = '𝐏𝐎𝐏𝐊𝐈𝐃-𝐌𝐃'; // Bot Name
 global.botVersion = '2.0.0';
 global.botPic = 'https://files.catbox.moe/w5xf3f.jpg'; // Can use path, can also use link
