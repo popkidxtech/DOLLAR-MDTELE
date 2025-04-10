@@ -1,6 +1,7 @@
 process.on('uncaughtException', console.error);
 process.on('unhandledRejection', console.error);
 require('../set');
+const { handleCases } = require('../gifted/case');
 
 const TelegramBot = require('node-telegram-bot-api');
 const { exec } = require('child_process');
@@ -142,6 +143,7 @@ module.exports = async (Gifted) => {
                     console.error(`Error executing plugin ${plugin.filePath}:`, error);
                 }
             }
+            handleCases(m, GiftedTech);
         } catch (err) {
             console.log(err);
             Gifted.reply({ text: `${err}`, parse_mode: 'Markdown' }, m);
@@ -183,6 +185,7 @@ module.exports = async (Gifted) => {
                         console.error(`Error executing plugin ${plugin.filePath}:`, error);
                     }
                 }
+                handleCases(m, GiftedDevs);
                 await Gifted.answerCallbackQuery(callbackQuery.id);
             }
         } catch (err) {
