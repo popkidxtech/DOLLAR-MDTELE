@@ -81,7 +81,7 @@ giftedMess += `╰═════════════════⊷\n\n*${m
     items.sort((a, b) => (a.command ? a.command[0].localeCompare(b.command[0]) : a.localeCompare(b)));
     giftedMess += `╭─── 『 *${monospace(category.toUpperCase())}* 』\n`;
     items.forEach(item => {
-      const command = item.command ? `✧ *${global.prefix}${item.command[0]}*` : `✧ *${global.prefix}${item}*`;
+      const command = item.command ? `☢︎︎ *${global.prefix}${item.command[0]}*` : `✰ *${global.prefix}${item}*`;
       giftedMess += `${command}\n`;
     });
     giftedMess += `╰─────────────────◊\n\n`;
