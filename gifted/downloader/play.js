@@ -36,19 +36,19 @@ module.exports = {
                 let giftedButtons = [
                 [
                     { text: 'Ytdl Web', url: `${global.ytdlWeb}` },
-                    { text: 'WaChannel', url: 'https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l' }
+                    { text: 'WaChannel', url: global.giftedWaChannel }
                 ]
             ]
 
                 let giftedMess = `
 ${global.botName} SONG DOWNLOADER 
 ╭───────────────◆  
-│⿻ *Title:* ${video.title}
-│⿻ *Quality:* mp3 (128kbps)
-│⿻ *Duration:* ${video.timestamp}
-│⿻ *Viewers:* ${video.views}
-│⿻ *Uploaded:* ${video.ago}
-│⿻ *Artist:* ${video.author.name}
+│❤️ *Title:* ${video.title}
+│🩷 *Quality:* mp3 (128kbps)
+│🩵 *Duration:* ${video.timestamp}
+│💞 *Viewers:* ${video.views}
+│💖 *Uploaded:* ${video.ago}
+│🌟 *Artist:* ${video.author.name}
 ╰────────────────◆  
 ⦿ *Direct Yt Link:* ${video.url}
 ⦿ *Download More At:* ${global.ytdlWeb}
