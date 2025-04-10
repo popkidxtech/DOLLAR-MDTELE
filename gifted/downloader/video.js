@@ -35,7 +35,7 @@ module.exports = {
                  let giftedButtons = [
                 [
                     { text: 'Ytdl Web', url: `${global.ytdlWeb}` },
-                    { text: 'WaChannel', url: 'https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l' }
+                    { text: 'WaChannel', url: global.giftedWaChannel }
                 ]
             ]
 
